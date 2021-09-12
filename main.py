@@ -19,6 +19,6 @@ def main():
       else:
         print("Status code : ", r.status_code)
         break
-       time.sleep(7200)
+      time.sleep(7200)
        
 main()
