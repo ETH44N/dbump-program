@@ -1,7 +1,7 @@
 import requests, time
 
 def main():
-  channelId = str(input("Identifiant du salon ou envoyer le message -> "))
+    channelId = str(input("Identifiant du salon ou envoyer le message -> "))
     auth = str(input("Authorization -> "))
     
     headers = {
